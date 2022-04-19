@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <style>
+        div
+        {
+            text-align: center;
+            align-items: center;
+            background-image:url("school.jpg");
+            padding:40px;
+        }
+        td
+        {
+            padding-right: 25px;
+            padding-left : 25px;
+        }
+        fieldset{
+            background-color: red;
+        }
+        label
+        {
+            color:darkblue;
+            font-size: 25;
+        }
+        span{
+            color:red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <Fieldset >
+        <div>
+            <u>
+                <h1> Student Registration Form</h1>
+            </u>
+            <form >
+                <center>
+                <table>
+                    <tr>
+                        <td>
+                            <label> First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" value="Sumit"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Last Name</label>
+                        </td>
+                        <td>
+                            <input type="text" value="Das"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Nick Name</label>
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Email <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Enter Your Email" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Password <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="password" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Date of Birth</label>
+                        </td>
+                        <td>
+                            <input type="date" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Birth Time</label>
+                        </td>
+                        <td>
+                            <input type="time" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" />Male
+                            <input type="radio" name="gender" />Female
+                            <input type="radio" name="gender" />Others
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Course</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" />C
+                            <input type="checkbox" />C++
+                            <input type="checkbox" />Java
+                            <input type="checkbox" />Python
+                            <input type="checkbox" />C#
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Location</label>
+                        </td>
+                        <td>
+                            <select>
+                                <optgroup label="NORTH">
+                                    <option>New Delhi</option>
+                                    <option>Amritsar</option>
+                                </optgroup>
+                                <optgroup label="SOUTH">
+                                    <option>Chennai</option>
+                                    <option>Banglore</option>
+                                </optgroup>
+                                <optgroup label="EAST">
+                                    <option>Kolkata</option>
+                                    <option>Siliguri</option>
+                                    <option>Patna</option>
+                                </optgroup>
+                                <optgroup label="WEST">
+                                    <option>Jaipur</option>
+                                </optgroup>
+                                <optgroup label="CENTRAL">
+                                    <option>Mumbai</option>
+                                    <option>Pune</option>
+                                </optgroup>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Mobile Number</label>
+                        </td>
+                        <td>
+                            <input type="number" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Address</label>
+                        </td>
+                        <td>
+                            <textarea rows="5" cols="21"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <input type="submit" value="Register" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            </form>
+        </div>
+    </Fieldset>
+</body>
+
+</html>
