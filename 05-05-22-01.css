@@ -1,0 +1,95 @@
+h1~p
+{
+    color: black;
+    background-color: green;
+}
+
+h1+p
+{
+    color: black;
+    background-color: yellow;
+}
+
+div p
+{
+    color: white;
+    background-color: blue;
+}
+
+div>p
+{
+    color: red;
+    background-color: blue;
+}
+div~p
+{
+    color: white;
+    background-color: green;
+}
+
+div+p
+{
+    color: white;
+    background-color: red;
+}
+
+h1{
+    color: salmon;
+    background-color: black;
+}
+
+li{
+    /*display:none;*/
+    /*display:block;*/
+    display:inline;
+}
+
+.hP{
+    visibility:hidden;
+}
+
+.p1{
+    position:absolute;
+    left:50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.p2{
+    position:absolute;
+    right:50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+img{
+    height:400px;
+    width:400px;
+    float:right;
+
+    transition-property: both 5s;
+    transition-timing-function: linear;
+    
+}
+
+img:hover{
+    width:800px;
+    height:800px;
+}
+p{
+-webkit-animation-name:myfirst; /* Chrome */
+-webkit-animation-duration:5s; /* Chrome */
+}
+@-webkit-keyframes myfirst /* Chrome */
+{
+0% {background:red;width:200px;}
+20% {background:green; width:300px;}
+40% {background:yellow;width:400px;}
+80% {background:red;width:200px;}
+}
+
+
+
+
+
+

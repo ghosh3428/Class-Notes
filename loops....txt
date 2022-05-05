@@ -1,0 +1,39 @@
+Looping Condition:
+	1)for looping:
+			i=1(1)		i<=1000(2)	i++(3)
+		for(initialization; condition; increment/decrement)
+		{
+			//BOdy or statement...print(i)(4)
+		}
+	1-->2-->4-->3-->2-->4-->3-->2-->4
+
+	2)while Looping :
+		initilization;
+		while(condition)
+		{
+			//body...
+			increment/decrement..
+		}
+
+	3)do-while loop :
+		initialization;
+		do
+		{
+			//body..
+			increment/decrement
+		}while(condition);
+
+Switch Statement :
+		switch(expression)
+		{
+			case exp1 :	//body..
+					break;
+			case exp2 :	//body..
+					break;
+			case exp3 :	//body..
+					break;
+			------------------------
+			------------------------
+			default :	//body..
+					break;
+		}
